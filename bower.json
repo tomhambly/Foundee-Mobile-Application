@@ -1,8 +1,7 @@
 {
   "name": "Foundee-Mobile-Application",
   "version": "0.0.1",
-  "authors": [
-  ],
+  "authors": [],
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,6 +11,7 @@
     "tests"
   ],
   "dependencies": {
-    "steroids-js": "3.1.x"
+    "steroids-js": "3.1.x",
+    "steroids-addons": "https://13610:GAWAEFDKXJFF4R2YWBSEYMGYQWH6SCUWCLGC85ACCRB63H37JPBW46DAY4CS86DN55B4YU8EL9@addons.appgyver.com/steroids-addons.js?version=3.1.0"
   }
 }

@@ -4,7 +4,7 @@
 steroids.config.name = "Foundee Mobile Application"
 
 # -- Initial Location --
-steroids.config.location = "http://localhost/index.html"
+steroids.config.location = "http://localhost/views/main/index.html"
 
 # -- Tab Bar --
 # steroids.config.tabBar.enabled = true
