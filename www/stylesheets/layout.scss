@@ -18,3 +18,32 @@ form button[type=submit]
 {
 	margin-top: 10px !important;
 }
+
+#login-logo
+{
+	text-align:center;
+}
+
+.streamPost
+{ 
+	background-color: #C9C9C9; 
+	padding: 0.5em;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px gray;
+}
+
+.topcoat-textarea
+{
+	width: 100%;
+	height: 200px;
+}
+
+.topcoat-textarea + form button[type=submit]
+{
+	float: right !important;
+}
+
+#userWelcome
+{
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+<div class="content-padded">
+	<div ng-app="streamApp">
+		<div ng-controller="IndexCtrl">
+			<div class="topcoat-list__container" id="hammer">
+				<ul class="topcoat-list">
+					<li class="topcoat-list__item" hm-tap="open(stream.stream_id)" ng-repeat="stream in streams">
+						<img src="{{ stream.image }}" width="25" height="25"> <b> {{ stream.name }}</b>
+						<div class="streamPost">
+							{{ stream.description }}
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	/*
+	var element = document.querySelector("#hammer");
+	var hammertime = Hammer(element).on("dragdown", function(event) {
+		document.location.reload();
+	});
+	*/
+</script>

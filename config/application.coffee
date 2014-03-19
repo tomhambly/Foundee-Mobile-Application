@@ -4,22 +4,22 @@
 steroids.config.name = "Foundee Mobile Application"
 
 # -- Initial Location --
-steroids.config.location = "http://localhost/views/main/index.html"
+steroids.config.location = "http://localhost/views/login/index.html"
 
 # -- Tab Bar --
-# steroids.config.tabBar.enabled = true
-# steroids.config.tabBar.tabs = [
-#   {
-#     title: "Index"
-#     icon: "icons/pill@2x.png"
-#     location: "http://localhost/index.html"
-#   },
-#   {
-#     title: "Internet"
-#     icon: "icons/telescope@2x.png"
-#     location: "http://www.google.com"
-#   }
-# ]
+steroids.config.tabBar.enabled = true
+steroids.config.tabBar.tabs = [
+	{
+		title: "Home"
+		icon: "icons/house@2x.png"
+		location: "http://localhost/views/login/index.html"
+	},
+	{
+		title: "User"
+		icon: "icons/user@2x.png"
+		location: "http://localhost/views/user/index.html"
+	}
+]
 
 # steroids.config.tabBar.tintColor = "#000000"
 # steroids.config.tabBar.tabTitleColor = "#00aeef"

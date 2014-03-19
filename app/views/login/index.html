@@ -1,17 +1,28 @@
+<!--
 <div class="navBar">
 	<h3>Login</h3>
 </div>
+-->
 
 <div class="content-padded">
 
-  <form>
-  	<input type="text" class="topcoat-text-input full" placeholder="Username" value="">
-  	<input type="password" class="topcoat-text-input full" placeholder="Password" value="">
+	<div id="login-logo">
+		<img src="/images/Foundee Logo.png">
+  	</div>
 
-  	<button type="submit" class="topcoat-button--cta center full">Login</button>
-  </form>
-
-  <br>
-  <a class="topcoat-button center full" ontouchend="steroids.modal.hide()">Close</a>
+  	<form>
+	  	<!-- <input type="text" class="topcoat-text-input full" id="status" disabled> -->
+	  	<input type="text" class="topcoat-text-input full" id="username" placeholder="Username" value="">
+	  	<input type="password" class="topcoat-text-input full" id="password" placeholder="Password" value="">
+	  	<br>
+	  	<div id="error">
+	  	</div>
+	  	<br>
+	  	<button type="submit" class="topcoat-button--cta center full" ontouchend="login()">Login</button>
+  	</form>
 
 </div>
+
+<script>
+	//onload();
+</script>
